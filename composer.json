@@ -15,7 +15,7 @@
     },
     "autoload":{
         "psr-4":{ 
-            "Lhy\\Library":"src/Lhy/Library" 
+            "Lhy\\Library\\":"src/Lhy/Library" 
         }
     }
 }
