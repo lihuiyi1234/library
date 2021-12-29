@@ -1,0 +1,21 @@
+{
+    "name": "syslib/lihuiyi",
+    "description": "Li Huiyi's own encapsulated composer class library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lihuiyi",
+            "email": "1345769201@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0" 
+    },
+    "autoload":{
+        "psr-4":{ 
+            "Trois\\Library":"src/Lhy/Library" 
+        }
+    }
+}
